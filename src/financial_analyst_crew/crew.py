@@ -1,7 +1,7 @@
 from crewai import Agent, Crew, Process, Task
 from crewai.project import CrewBase, agent, crew, task
 from langchain_groq import ChatGroq
-from langchain_community.llms import Ollama
+# from langchain_community.llms import Ollama
 # ollama_mixtral = Ollama(model="mixtral", base_url="https://11434-01ht0mvyjesyha3xfdnzha3w8p.cloudspaces.litng.ai")
 
 @CrewBase
